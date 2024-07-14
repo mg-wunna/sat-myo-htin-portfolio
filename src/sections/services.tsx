@@ -34,37 +34,48 @@ function Services() {
           libero saepe alias odit deserunt iste voluptatum. Ut voluptas quia
           nostrum id eligendi.
         </div>
-        <div className="mt-10 grid-cols-5 items-center lg:grid">
-          <div className="mx-auto grid gap-4 sm:grid-cols-2 lg:col-span-3">
-            <ServicesItem
-              title="Personalized Workout Plans"
-              description="Customized exercise routines tailored to individual fitness goals and needs."
-            />
-            <ServicesItem
-              title="Nutritional Guidance"
-              description="Expert advice on diet and nutrition to complement workout routines and promote overall health."
-            />
-            <ServicesItem
-              title="One-on-One Training Sessions"
-              description="Private coaching sessions focused on technique, motivation, and achieving personal fitness milestones."
-            />
-            <ServicesItem
-              title="Fitness Assessments"
-              description="Comprehensive evaluations of physical fitness to track progress and identify areas for improvement."
-            />
-          </div>
-          <div className="mt-10 grid grid-cols-2 grid-rows-2 gap-2 self-start lg:col-span-2 lg:mt-0">
-            <img
-              className="aspect-video rounded-3xl object-cover"
-              src={Image}
-            />
-            <div className="row-span-2 h-full">
-              <img className="h-full rounded-3xl object-cover" src={Image} />
+        <div className="mt-10 grid-cols-5 items-center">
+          <div className="mx-auto grid gap-4 md:grid-cols-2">
+            <div className="flex flex-col gap-4">
+              <img
+                className="aspect-video rounded-3xl object-cover"
+                src={Image}
+              />
+              <ServicesItem
+                title="Personalized Workout Plans"
+                description="Customized exercise routines tailored to individual fitness goals and needs."
+              />
             </div>
-            <img
-              className="aspect-video rounded-3xl object-cover"
-              src={Image}
-            />
+            <div className="flex flex-col gap-4">
+              <img
+                className="aspect-video rounded-3xl object-cover"
+                src={Image}
+              />
+              <ServicesItem
+                title="Nutritional Guidance"
+                description="Expert advice on diet and nutrition to complement workout routines and promote overall health."
+              />
+            </div>
+            <div className="flex flex-col gap-4">
+              <img
+                className="aspect-video rounded-3xl object-cover"
+                src={Image}
+              />
+              <ServicesItem
+                title="One-on-One Training Sessions"
+                description="Private coaching sessions focused on technique, motivation, and achieving personal fitness milestones."
+              />
+            </div>
+            <div className="flex flex-col gap-4">
+              <img
+                className="aspect-video rounded-3xl object-cover"
+                src={Image}
+              />
+              <ServicesItem
+                title="Fitness Assessments"
+                description="Comprehensive evaluations of physical fitness to track progress and identify areas for improvement."
+              />
+            </div>
           </div>
         </div>
       </div>
