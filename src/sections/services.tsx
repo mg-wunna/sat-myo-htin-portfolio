@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import Image from "../assets/service.webp";
 import { IoMdFitness } from "react-icons/io";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -51,12 +54,12 @@ function Services() {
             />
           </div>
           <div className="mt-10 grid grid-cols-2 grid-rows-2 gap-2 self-start lg:col-span-2 lg:mt-0">
-            <img className="rounded-3xl object-cover" src="/service.webp" />
+            <img className="rounded-3xl object-cover" src={Image} />
             <img
               className="row-span-2 h-full rounded-3xl object-cover"
-              src="/service.webp"
+              src={Image}
             />
-            <img className="rounded-3xl object-cover" src="/service.webp" />
+            <img className="rounded-3xl object-cover" src={Image} />
           </div>
         </div>
       </div>
