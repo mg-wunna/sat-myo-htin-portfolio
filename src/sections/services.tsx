@@ -54,12 +54,17 @@ function Services() {
             />
           </div>
           <div className="mt-10 grid grid-cols-2 grid-rows-2 gap-2 self-start lg:col-span-2 lg:mt-0">
-            <img className="rounded-3xl object-cover" src={Image} />
             <img
-              className="row-span-2 h-full rounded-3xl object-cover"
+              className="aspect-video rounded-3xl object-cover"
               src={Image}
             />
-            <img className="rounded-3xl object-cover" src={Image} />
+            <div className="row-span-2 h-full">
+              <img className="h-full rounded-3xl object-cover" src={Image} />
+            </div>
+            <img
+              className="aspect-video rounded-3xl object-cover"
+              src={Image}
+            />
           </div>
         </div>
       </div>
