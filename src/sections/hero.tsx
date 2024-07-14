@@ -1,6 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
-import HeroImage from "../assets/hero.png";
 import { FaFacebookF, FaTiktok, FaYoutube } from "react-icons/fa";
 
 function Hero() {
@@ -35,7 +32,7 @@ function Hero() {
         </div>
       </div>
       <div className="mx-auto">
-        <img src={HeroImage} />
+        <img src="/hero.png" />
       </div>
     </div>
   );
